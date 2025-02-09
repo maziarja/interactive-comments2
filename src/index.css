@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Rubik", serif;
+
+  --color-blue-950: hsl(212, 24%, 26%);
+  --color-blue-900: hsl(238, 40%, 52%);
+  --color-blue-800: hsl(239, 57%, 85%);
+  --color-red-900: hsl(358, 79%, 66%);
+  --color-red-800: hsl(357, 100%, 86%);
+  --color-gray-950: hsl(211, 10%, 45%);
+  --color-gray-900: hsl(223, 19%, 93%);
+  --color-gray-800: hsl(228, 33%, 97%);
+}
