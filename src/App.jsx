@@ -2,7 +2,7 @@ import Spinner from "../ui/Spinner";
 import { useData } from "./features/useData";
 import Comments from "./features/comments/Comments";
 import Textarea from "./features/textarea/Textarea";
-import CreateComment from "./features/comments/createComment";
+import CreateComment from "./features/comments/CreateComment";
 
 function App() {
   const { isLoading1, isLoading2, isLoading3, dataApi: data } = useData();
