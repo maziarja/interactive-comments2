@@ -11,7 +11,6 @@ export function useUpdateComments() {
       queryClient.invalidateQueries({
         queryKey: ["comments"],
       });
-      toast.success("comment successfully updated");
     },
     onError: (err) => {
       console.log(err);

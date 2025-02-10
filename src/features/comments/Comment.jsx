@@ -8,6 +8,7 @@ import { useState } from "react";
 import { useUpdateComments } from "./useUpdateComments";
 import { useDeleteComment } from "./useDeleteComment";
 import Modal from "../../../ui/Modal";
+import { toast } from "react-toastify";
 
 function Comment({ comment }) {
   const { dataApi } = useData();
@@ -21,12 +22,19 @@ function Comment({ comment }) {
   function handleUpdateComment() {
     setEditable(false);
     const id = comment.id;
-    updateComment({
-      id,
-      obj: {
-        content: textarea,
+    updateComment(
+      {
+        id,
+        obj: {
+          content: textarea,
+        },
       },
-    });
+      {
+        onSuccess: () => {
+          toast.success("Comment successfully updated");
+        },
+      },
+    );
   }
 
   function handleDeleteComment() {
