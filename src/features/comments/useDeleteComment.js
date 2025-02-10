@@ -1,8 +1,4 @@
-import {
-  QueryClient,
-  useMutation,
-  useQueryClient,
-} from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { deleteComment as deleteCommentApi } from "../../services/commentsApi";
 import { toast } from "react-toastify";
 

@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createComment as createCommentApi } from "../../services/commentsApi";
-import { useTextareaContext } from "../textArea/textArea";
+import { useTextareaContext } from "../textarea/Textarea";
 import { toast } from "react-toastify";
 
 export function useCreateComment() {

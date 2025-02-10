@@ -2,12 +2,12 @@ import { formatDistanceToNow } from "date-fns";
 
 import { useData } from "../useData";
 import Button from "../../../ui/Button";
-import Textarea, { useTextareaContext } from "../textArea/textArea";
-import CreateComment from "./createComment";
+import Textarea, { useTextareaContext } from "../textarea/Textarea";
+import CreateComment from "./CreateComment";
 import { useState } from "react";
 import { useUpdateComments } from "./useUpdateComments";
 import { useDeleteComment } from "./useDeleteComment";
-import Modal from "../../../ui/modal";
+import Modal from "../../../ui/Modal";
 
 function Comment({ comment }) {
   const { dataApi } = useData();

@@ -1,6 +1,6 @@
 import Button from "../../../ui/Button";
 import Spinner from "../../../ui/Spinner";
-import Textarea, { useTextareaContext } from "../textArea/textArea";
+import Textarea, { useTextareaContext } from "../textarea/Textarea";
 import { useData } from "../useData";
 import { useCreateComment } from "./useCreateComment";
 

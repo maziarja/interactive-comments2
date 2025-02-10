@@ -1,4 +1,4 @@
-import Comment from "./comment";
+import Comment from "./Comment";
 
 function Comments({ data }) {
   const comments = data.comments;
