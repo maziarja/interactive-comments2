@@ -1,7 +1,7 @@
 import Spinner from "../ui/Spinner";
 import { useData } from "./features/useData";
 import Comments from "./features/comments/Comments";
-import Textarea from "./features/textarea/textarea";
+import Textarea from "./features/textarea/Textarea";
 import CreateComment from "./features/comments/createComment";
 
 function App() {
